@@ -1,6 +1,6 @@
 package br.edu.imepac.biblioteca.controllers;
 
-import br.edu.imepac.biblioteca.domain.Aluno;
+import br.edu.imepac.biblioteca.domain.entidades.Aluno;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 

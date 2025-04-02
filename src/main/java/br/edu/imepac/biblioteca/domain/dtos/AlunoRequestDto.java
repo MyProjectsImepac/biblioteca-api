@@ -1,4 +1,4 @@
-package br.edu.imepac.biblioteca.domain;
+package br.edu.imepac.biblioteca.domain.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,8 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Aluno {
-    private Long id;
+public class AlunoRequestDto {
+
+    private long id;
     private String nome;
     private String matricula;
     private String email;
